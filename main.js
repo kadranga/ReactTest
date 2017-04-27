@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import D from './App.jsx';
+import App from './App.jsx';
 
-ReactDOM.render(<D />, document.getElementById('app'));
+ReactDOM.render(<App now={new Date().toString()} b="7"/>, document.getElementById('app'));
