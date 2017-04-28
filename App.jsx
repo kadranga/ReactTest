@@ -1,16 +1,17 @@
 import React from 'react';
+import App1 from './App1.jsx';
 
 class App extends React.Component {
    
-     render(){
+      render(){
         return(
         <div>
-            <h1>Hello at {this.props.now}{' '}{this.props.b}</h1>
+            <h2>Outer</h2>
+            <App1 />
         </div>
         );
     }
 }
-
 
 
 export default App;
